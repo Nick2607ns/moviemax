@@ -9,7 +9,11 @@ namespace MOVIEMAX
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Visible = false;
+            Form2 tela = new Form2();
 
+            tela.ShowDialog();
+            this.Visible = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
